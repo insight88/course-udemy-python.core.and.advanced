@@ -23,3 +23,6 @@ brand_new_scores = scores.copy()  # same as scores[:]
 brand_new_scores.append(68)
 print(brand_new_scores)
 print(scores, '\n')
+
+del scores[1:4]
+print(scores)
