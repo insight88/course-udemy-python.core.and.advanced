@@ -3,5 +3,9 @@
 
 print(cube(2)) '''
 
-f = lambda n:n**3
+
+def f(n): return n**3
+
+
+# ? lambda parameter:action, lambda는 function을 return하며 nameless
 print(f(2))
